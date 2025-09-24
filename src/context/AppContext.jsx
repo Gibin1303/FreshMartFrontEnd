@@ -85,6 +85,7 @@ export const AppContextProvider = ({ children }) => {
 
         setCartItems(cartData)
         toast.success("Added to Cart")
+        
     }
 
     // update cart item quanity

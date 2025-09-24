@@ -1,4 +1,3 @@
-import React from 'react'
 import Mainbar from '../components/Mainbar'
 import Categories from '../components/Categories'
 import BestSeller from '../components/BestSeller'
@@ -14,6 +13,9 @@ const Home = () => {
         <BestSeller/>
         <BottomBanner/>
         <NewsLetter/>
+        <div className='bg-[".../src/assets/add_address_image.svg"]'>
+
+        </div>
     </div>
   )
 }
